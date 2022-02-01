@@ -7,21 +7,3 @@
   service:
     name: kubelet
     state: started
-
-- name: stop openvswitch-switch
-  service:
-    name: openvswitch-switch
-    state: stopped
-    enabled: no
-
-- name: stop ovs-vswitchd
-  service:
-    name: ovs-vswitchd
-    state: stopped
-    enabled: no
-
-- name: stop ovsdb-server
-  service:
-    name: ovsdb-server
-    state: stopped
-    enabled: no
